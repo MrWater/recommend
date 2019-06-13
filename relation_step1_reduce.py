@@ -18,6 +18,7 @@ for line in sys.stdin:
     if not relation:
         relation = line[0]
         cnt = 1
+        print(line)
         score = line[1]
         continue
 

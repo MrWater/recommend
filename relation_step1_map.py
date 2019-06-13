@@ -23,4 +23,4 @@ for line in sys.stdin:
         score = item[idx+1:]
 
         for item2 in line:
-            print("%s:%s %s:%s" % (vid, item2[:item2.find(":")], uid, score))
+            print("%s:%s\t%s:%s" % (vid, item2[:item2.find(":")], uid, score))
